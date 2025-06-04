@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Data\SeedData\" />
-    <Folder Include="Entities\" />
+    <Folder Include="NotAFolder\" />
   </ItemGroup>
 
   <ItemGroup>
