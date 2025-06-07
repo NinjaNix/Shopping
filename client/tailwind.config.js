@@ -5,5 +5,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  important: true, // Ensures Tailwind styles are applied last
 }
 
