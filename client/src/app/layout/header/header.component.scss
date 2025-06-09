@@ -17,3 +17,16 @@ a {
         color: #7d00fa;
     }
 }
+
+.bg-white {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1)) /* #ffffff */ !important;
+}
+
+.top-0 {
+    top: 0px !important;
+}
+
+.top-20 {
+    top: 5rem /* 80px */ !important;
+}

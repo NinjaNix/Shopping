@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 2068px;
+    }
+}
+
+.mt-24 {
+    margin-top: 6rem /* 96px */ !important;
+}
