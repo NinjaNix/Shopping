@@ -6,11 +6,11 @@
 
   <ItemGroup>
     <Folder Include="Data\SeedData\" />
-    <Folder Include="NotAFolder\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.37" />
   </ItemGroup>
 
   <PropertyGroup>
