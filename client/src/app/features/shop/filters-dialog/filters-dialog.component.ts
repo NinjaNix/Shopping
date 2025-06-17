@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [MatDivider, MatSelectionList, MatListOption, MatButton, FormsModule],
   templateUrl: './filters-dialog.component.html',
-  styleUrl: './filters-dialog.component.scss'
+  styleUrls: ['./filters-dialog.component.css','../../../../../dist/output.css']
 })
 export class FiltersDialogComponent {
   shopService = inject(ShopService);

@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
   imports: [ProductItemComponent, MatButton, MatIcon, MatMenu, 
     MatSelectionList, MatListOption, MatMenuTrigger, MatPaginator, FormsModule],
   templateUrl: './shop.component.html',
-  styleUrl: './shop.component.scss'
+  styleUrls: ['./shop.component.css','../../../../dist/output.css']
 })
 export class ShopComponent implements OnInit {
 

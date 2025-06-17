@@ -13,7 +13,7 @@ import { MatProgressBar } from '@angular/material/progress-bar';
     MatIcon, MatButton, MatBadge, RouterLink, RouterLinkActive, MatProgressBar
   ],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrls: ['./header.component.css','../../../../dist/output.css']
 })
 export class HeaderComponent {
   busyService = inject(BusyService);

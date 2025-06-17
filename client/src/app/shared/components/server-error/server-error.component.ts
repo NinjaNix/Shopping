@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   selector: 'app-server-error',
   imports: [MatCard],
   templateUrl: './server-error.component.html',
-  styleUrl: './server-error.component.scss'
+  styleUrls: ['./server-error.component.css','../../../../../dist/output.css']
 })
 export class ServerErrorComponent {
   error?: any

@@ -9,7 +9,7 @@ import { ShopComponent } from "./features/shop/shop.component";
   standalone: true,
   imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.css','../../dist/output.css']
 })
 export class AppComponent{
   title = 'Skinet';

@@ -11,7 +11,7 @@ import { RouterLink } from '@angular/router';
   imports: [MatCard, MatCardContent, MatCardActions, MatButton, MatIcon, 
     CurrencyPipe, RouterLink],
   templateUrl: './product-item.component.html',
-  styleUrl: './product-item.component.scss'
+  styleUrls: ['./product-item.component.css','../../../../../dist/output.css']
 })
 export class ProductItemComponent {
   @Input() product?: Product;

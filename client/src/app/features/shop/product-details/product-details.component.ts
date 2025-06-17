@@ -16,7 +16,7 @@ import { MatDivider } from '@angular/material/divider';
     MatDivider
   ],
   templateUrl: './product-details.component.html',
-  styleUrl: './product-details.component.scss'
+  styleUrls: ['./product-details.component.css', '../../../../../dist/output.css']
 })
 export class ProductDetailsComponent implements OnInit {
   

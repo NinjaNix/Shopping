@@ -6,7 +6,7 @@ import { MatButton } from '@angular/material/button';
   selector: 'app-test-error',
   imports: [MatButton],
   templateUrl: './test-error.component.html',
-  styleUrl: './test-error.component.scss'
+  styleUrls: ['./test-error.component.css','../../../../dist/output.css']
 })
 export class TestErrorComponent {
   baseUrl = 'https://localhost:5001/api/';
